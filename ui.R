@@ -76,47 +76,47 @@ shinyUI(fluidPage(
                column(3, offset=0.5,
                       
                       
-                      sliderInput("Gna", "Maximum Conductance of Sodium channel (0-2 Si ):", min = 0, max = 2, value = 1, step= 0.0001),
+                      sliderInput("Gna", "Total Conductance of Sodium channel (0-2 Si ):", min = 0, max = 2, value = 1, step= 0.0001),
                       
   #                    numericInput("Gna", "Maximum Conductance of Sodium channel (0-2 Si ):", 1.20),
                       
-                      sliderInput("Gk", "Maximum Conductance of Potassium channel (0-2 Si):", min = 0, max = 2, value = 0.5, step= 0.0001),
+                      sliderInput("Gk", "Total Conductance of Potassium channel (0-2 Si):", min = 0, max = 2, value = 0.5, step= 0.0001),
                       
   #                    numericInput("Gk", "Maximum Conductance of Potassium channel (0-2 Si):", 0.36),
                       
-                      sliderInput("Gcl", "Maximum Conductance of Chlorine channel(0-2 Si):", min = 0, max = 2, value = 0, step= 0.0001),
+                      sliderInput("Gcl", "Total Conductance of Chlorine channel(0-2 Si):", min = 0, max = 2, value = 0, step= 0.0001),
                       
   #                    numericInput("Gcl", "Maximum Conductance of Chlorine channel(0-2 Si):", 0),
                       
-                      sliderInput("Ga", "Maximum Conductance of A channel (0-0.1 Si ):", min = 0, max = 0.1, value = 0, step= 0.0001),
+                      sliderInput("Ga", "Total Conductance of A channel (0-0.1 Si ):", min = 0, max = 0.1, value = 0, step= 0.0001),
                       
   #                    numericInput("Ga", "Maximum Conductance of A channel (0-0.1 Si ):", 0 ),
                       
-                      sliderInput("Gm", "Maximum Conductance of M channel (0-0.1 Si):", min = 0, max = 0.1, value = 0, step= 0.0001),
+                      sliderInput("Gm", "Total Conductance of M channel (0-0.1 Si):", min = 0, max = 0.1, value = 0, step= 0.0001),
                       
   #                    numericInput("Gm", "Maximum Conductance of M channel (0-0.1 Si):", 0 ),
                       
-                      sliderInput("Gahp", "Maximum Conductance of AHP channel(0 - 0.1 Si):", min = 0, max = 0.1, value = 0, step= 0.0001),
+                      sliderInput("Gahp", "Total Conductance of AHP channel(0 - 0.1 Si):", min = 0, max = 0.1, value = 0, step= 0.0001),
                       
   #                    numericInput("Gahp", "Maximum Conductance of AHP channel(0 - 0.1 Si):", 0),
                       
-                      sliderInput("Gkca", "Maximum Conductance of Kca channel(0-0.1 Si):", min = 0, max = 0.1, value = 0, step= 0.0001),
+                      sliderInput("Gkca", "Total Conductance of Kca channel(0-0.1 Si):", min = 0, max = 0.1, value = 0, step= 0.0001),
                       
   #                    numericInput("Gkca", "Maximum Conductance of Kca channel(0-0.1 Si):", 0 ),
                       
-                      sliderInput("Gt", "Maximum Permeability of CaT channel (0-1 ):", min = 0, max = 1, value = 0, step= 0.0001),
+                      sliderInput("Gt", "Total Permeability of CaT channel (0-1 ):", min = 0, max = 1, value = 0, step= 0.0001),
                       
   #                    numericInput("Gt", "Maximum Permeability of CaT channel (0-1 ):", 0 ),                    
                       
-                      sliderInput("Gcal", "Maximum Permeability of CaL channel(0-1 ):", min = 0, max = 1, value = 0, step= 0.0001),
+                      sliderInput("Gcal", "Total Permeability of CaL channel(0-1 ):", min = 0, max = 1, value = 0, step= 0.0001),
                       
   #                    numericInput("Gcal", "Maximum Permeability of CaL channel(0-1 ):", 0 ),
                       
-                      sliderInput("GKleak", "Maximum Conductance of Sodium Leak channel (0-0.01 Si):", min = 0, max = 0.01, value = 0, step= 0.0001),
+                      sliderInput("GKleak", "Total Conductance of Sodium Leak channel (0-0.01 Si):", min = 0, max = 0.01, value = 0, step= 0.0001),
                       
   #                    numericInput("GKleak", "Maximum Conductance of Sodium Leak channel (0-0.01 Si):", 0.003),
                       
-                      sliderInput("GNaleak", "Maximum Conductance of Potassium Leak channel ( 0-0.01 Si):", min = 0, max = 0.01, value = 0, step= 0.0001)
+                      sliderInput("GNaleak", "Total Conductance of Potassium Leak channel ( 0-0.01 Si):", min = 0, max = 0.01, value = 0, step= 0.0001)
                       
   #                    numericInput("GNaleak", "Maximum Conductance of Potassium Leak channel ( 0-0.01 Si):", 0.003)
                       
