@@ -134,7 +134,7 @@ shinyUI(fluidPage(
              h5("In 1952 Hodgkin and Huxley published a series of papers, describing the basic processes underlying the nervous mechanisms of control and the communication between nerve cells"),
              h5("For this they received the Nobel prize in physiology and medicine, together with John Eccles in 1963."),
              h5("Their research was based on electrophysiological experiments carried out in the late 1940s and early 1950 on a giant squid axon to understand how action potentials in neurons are initiated and propagated."),
-             h5("Change the parameters below and have fun playing ver 7 !!! "),
+             h5("Change the parameters below and have fun playing !!! "),
                        
              
              h5("The full forms of the channels are:"),
