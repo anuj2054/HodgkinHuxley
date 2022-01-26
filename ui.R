@@ -135,7 +135,7 @@ shinyUI(fluidPage(
              h5("For this they received the Nobel prize in physiology and medicine, together with John Eccles in 1963."),
              h5("Their research was based on electrophysiological experiments carried out in the late 1940s and early 1950 on a giant squid axon to understand how action potentials in neurons are initiated and propagated."),
              h5("Change the parameters below and have fun playing ver 7 !!! "),
-             
+                         
              h3(" Now Try answering these questions"),
              h5("Why does Sodium go down while Potassium go up ?"),
              h5("Why is the leakage current exist ? "),
@@ -149,11 +149,10 @@ shinyUI(fluidPage(
     
     tabPanel('About Us',
              h5("Developed at University of Oklahoma"),
-             h5("By Anuj Guruacharya and Dr. Michael Markham"),
+             h5("By Anuj Guruacharya and Binita Rajbanshi"),
              h5("On 2014"),
              h5("For educational purposes"),
              h5("Contact us for more features or any ideas"),
-             h5("Funded by NSF"),
              h5("Norman,Oklahoma, USA"))
     
     
