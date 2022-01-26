@@ -135,7 +135,19 @@ shinyUI(fluidPage(
              h5("For this they received the Nobel prize in physiology and medicine, together with John Eccles in 1963."),
              h5("Their research was based on electrophysiological experiments carried out in the late 1940s and early 1950 on a giant squid axon to understand how action potentials in neurons are initiated and propagated."),
              h5("Change the parameters below and have fun playing ver 7 !!! "),
-                         
+                       
+             
+             h5("The full forms of the channels are:"),
+             h5("A channel: A-type potassium channel"),
+             h5("M channel: M-type potassium channel"),
+             h5("AHP: Afterhyperpolarization"),
+             h5("Kca: Calcium activated potassium channel"),
+             h5("CaT: T-type calcium channel"),
+             h5("CaL: L-type calcium channel"),
+  
+
+             
+             
              h3(" Now Try answering these questions"),
              h5("Why does Sodium go down while Potassium go up ?"),
              h5("Why is the leakage current exist ? "),
