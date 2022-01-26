@@ -144,25 +144,18 @@ shinyUI(fluidPage(
              h5("Kca: Calcium activated potassium channel"),
              h5("CaT: T-type calcium channel"),
              h5("CaL: L-type calcium channel"),
-  
-
-             
              
              h3(" Now Try answering these questions"),
              h5("Why does Sodium go down while Potassium go up ?"),
              h5("Why is the leakage current exist ? "),
              h5(" Why does the Sodium current have the peculiar spike in the beginning ? "),
-             h5("Try answering these questions"),
-             h5("Try answering these questions"),
-             h5("Try answering these questions"),
-             h5("Try answering these questions"),
-             h5("Try answering these questions")),
-    
+             h5("Increase clamp duration to 100 ms and note what happens."),
+             h5("Decrease the conductance of Sodium channel and note what happens."),
+             h5("Increase the applied current and notice the jump in the red line in the current graph after the pre clamp duration.")),    
     
     tabPanel('About Us',
-             h5("Developed at University of Oklahoma"),
-             h5("By Anuj Guruacharya and Binita Rajbanshi"),
-             h5("On 2014"),
+             h5("Developed By Anuj Guruacharya and Binita Rajbanshi"),
+             h5("The hosting for this project was provided by the High Performance Computing Center at Oklahoma State University"),
              h5("For educational purposes"),
              h5("Contact us for more features or any ideas"),
              h5("Norman,Oklahoma, USA"))
